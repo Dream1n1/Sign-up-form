@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div class="form">
-                <form>
+                <form onsubmit="return validate()">
                     <div class="grouped">
                         <legend>Let's do this!</legend>
                         <fieldset>
@@ -55,7 +56,8 @@
                         <fieldset>
                             <div>
                                 <label for="password">PASSWORD*</label>
-                                <input type="password" id="password" name="password" required>
+                                <input type="password" id="password" name="password" minlength="5" required>
+                                <div id="noMatch"></div>
                             </div>
                             <div>
                                 <label for="password_confirm">CONFIRM PASSWORD*</label>

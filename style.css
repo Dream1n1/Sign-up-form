@@ -139,3 +139,9 @@ label {
 .acc > p > a:hover {
     color: rgb(56, 177, 56);
 }
+
+#noMatch {
+    position: absolute;
+    font-size: .7rem;
+    color: red;
+}
