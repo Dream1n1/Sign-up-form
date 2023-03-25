@@ -1,8 +1,6 @@
 const password = document.getElementById("password");
 const passwordConfirm = document.getElementById("password_confirm");
 const noMatch = document.getElementById("noMatch");
-const field = document.getElementById("password");
-const form = document.getElementById("#myForm");
 
 let passwordInput;
 let passwordConfInput;
