@@ -1,15 +1,15 @@
 @font-face {
-    font-family: norse-bold;
-    src: url(Norse-Bold.otf);
+    font-family: "norse-bold";
+    src: url(./Norse-Bold.otf);
 }
 
 @font-face {
-    font-family: montserrat;
-    src: url(Montserrat-VariableFont_wght.ttf);
+    font-family: "montserrat";
+    src: url(./Montserrat-VariableFont_wght.ttf);
 }
 
 * {
-    font-family: montserrat;
+    font-family: "montserrat";
 }
 
 body {
@@ -24,7 +24,7 @@ body {
 
 
 .bg {
-    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(./halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     width: 60%;
 }
@@ -42,7 +42,7 @@ body {
 .logoContainer > h1 {
     position: relative;
     margin: 0;
-    font-family: norse-bold;
+    font-family: "norse-bold";
     font-size: 80px;
 }
 
