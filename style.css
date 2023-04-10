@@ -1,13 +1,11 @@
-
-
 @font-face {
     font-family: norse-bold;
-    src: url(/Norse-Bold.otf);
+    src: url(Norse-Bold.otf);
 }
 
 @font-face {
     font-family: montserrat;
-    src: url(/Montserrat-VariableFont_wght.ttf);
+    src: url(Montserrat-VariableFont_wght.ttf);
 }
 
 * {
@@ -26,7 +24,7 @@ body {
 
 
 .bg {
-    background-image: url(/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
     width: 60%;
 }
